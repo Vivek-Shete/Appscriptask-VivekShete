@@ -1,3 +1,15 @@
+
+/* Centered text logo */
+.textLogo {
+    text-align: center;
+    align-items: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 850px;
+    color: black;
+  }
+
 /* Navbar container */
 .navbar {
     display: flex;
@@ -24,16 +36,6 @@
     padding-top: 5px;
   }
   
-  /* Centered text logo */
-  .textLogo {
-    text-align: center;
-    align-items: center;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 850px;
-    color: black;
-  }
   
   /* Icons section */
   .navIcons {

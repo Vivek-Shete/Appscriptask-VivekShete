@@ -6,9 +6,9 @@ export default function Navbar() {
       {/* First Row - Logo, Centered Text Logo, and Icons */}
       <div className={styles.topRow}>
         {/* Left Section - Logo */}
-        <div className={styles.logo}>
-          <img src="./images/logo.png" alt="Logo" />
-        </div>
+        // <div className={styles.logo}>
+        //   <img src="./images/logo.png" alt="Logo" />
+        // </div>
 
         {/* Center Section - Text LOGO */}
         <div className={styles.textLogo}>

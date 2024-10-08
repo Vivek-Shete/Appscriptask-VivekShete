@@ -7,22 +7,27 @@
     padding: 10px 40px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
-  }
-  
-  /* Top row container (Logo, text logo, and icons) */
-  .topRow {
+}
+
+/* Top row container (Logo, text logo, and icons) */
+.topRow {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center-align the text logo */
     align-items: center;
     width: 100%;
-  }
-  
-  /* Logo image styling */
-  .logo img {
+    position: relative; /* To position other elements */
+}
+
+/* Logo image styling */
+.logo {
+    position: absolute; /* Position the logo on the left */
+    left: 10px;
+}
+
+.logo img {
     max-width: 80px;
-    margin-right: auto;
     padding-top: 5px;
-  }
+}
 
 /* Centered text logo */
 .textLogo {
@@ -30,41 +35,41 @@
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 24px;
     font-weight: bold;
-    color: black;
-  }
-  
-  /* Icons section */
-  .navIcons {
+    color: black; /* Ensuring the color is black */
+}
+
+/* Icons section */
+.navIcons {
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-left: auto;
-  }
-  
-  .navIcons a img {
+    position: absolute; /* Position the icons on the right */
+    right: 10px;
+}
+
+.navIcons a img {
     max-width: 24px;
-  }
-  
-  /* Second row - Navigation menu */
-  .navMenu {
+}
+
+/* Second row - Navigation menu */
+.navMenu {
     display: flex;
     justify-content: center;
     gap: 30px;
     list-style: none;
     padding-top: 10px;
     margin: 0;
-  }
-  
-  .navMenu li a {
+}
+
+.navMenu li a {
     text-decoration: none;
     color: #000;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
-  }
-  
-  .navMenu li a:hover {
+}
+
+.navMenu li a:hover {
     color: #888;
-  }
-  
+}

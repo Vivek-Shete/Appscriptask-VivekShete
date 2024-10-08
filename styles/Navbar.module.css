@@ -19,7 +19,7 @@
   
   /* Logo image styling */
   .logo img {
-    max-width: 80px;
+    max-width: 24px;
     margin-right: auto;
     padding-top: 5px;
   }
@@ -27,7 +27,7 @@
   /* Centered text logo */
   .textLogo {
     text-align: center;
-/*     align-items: center; */
+    align-items: center;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 24px;
     font-weight: bold;

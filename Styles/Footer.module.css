@@ -1,0 +1,89 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .newsletter, .contact, .quickLinks, .followUs {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter h3, .contact h3, .quickLinks h3, .followUs h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .signupForm {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .signupForm input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .signupForm button {
+    padding: 10px 20px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .contact p, .followUs p, .quickLinks ul {
+    margin: 0;
+  }
+  
+  .quickLinks ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quickLinks ul li {
+    margin-bottom: 10px;
+  }
+  
+  .quickLinks ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .quickLinks ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .paymentMethods {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .paymentMethods img {
+    max-width: 50px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+  }
+  

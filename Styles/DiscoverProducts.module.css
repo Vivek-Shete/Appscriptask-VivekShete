@@ -1,0 +1,26 @@
+/* Discover Products Section Styles */
+.discoverSection {
+    text-align: center;
+    padding: 80px 20px;
+    width: 100%;
+    background-color: #f9f9f9;
+  }
+  
+  .discoverSection h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 800px;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .discoverSection p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  

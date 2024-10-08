@@ -1,0 +1,58 @@
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  .customization {
+    display: flex;
+    align-items: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .horizontalLine {
+    border: 0;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+  }
+  
+  .tab {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+  }
+  
+  .tabHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .subTabs {
+    padding: 10px 0 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .subText {
+    font-size: 14px;
+    color: #000000;
+    padding-left: 20px;
+  }
+  
+  .dropdownArrow {
+    font-size: 14px;
+    color: #000000;
+  }
+  

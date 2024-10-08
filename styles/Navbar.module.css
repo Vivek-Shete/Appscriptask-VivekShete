@@ -1,0 +1,71 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  /* Top row container (Logo, text logo, and icons) */
+  .topRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Logo image styling */
+  .logo img {
+    max-width: 80px;
+    margin-right: auto;
+    padding-top: 5px;
+  }
+  
+  /* Centered text logo */
+  .textLogo {
+    text-align: center;
+    align-items: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 850px;
+  }
+  
+  /* Icons section */
+  .navIcons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+  }
+  
+  .navIcons a img {
+    max-width: 24px;
+  }
+  
+  /* Second row - Navigation menu */
+  .navMenu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding-top: 10px;
+    margin: 0;
+  }
+  
+  .navMenu li a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .navMenu li a:hover {
+    color: #888;
+  }
+  

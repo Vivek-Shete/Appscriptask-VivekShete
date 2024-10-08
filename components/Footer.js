@@ -42,16 +42,16 @@ export default function Footer() {
         <div className={styles.followUs}>
           <h3>FOLLOW US</h3>
           <div className={styles.socialIcons}>
-            <a href="#"><img src="/images/insta.png" alt="insta" /></a>
-            <a href="#"><img src="/images/linkdin.png" alt="Instagram" /></a>
+            <a href="#"><img src="./images/insta.png" alt="insta" /></a>
+            <a href="#"><img src="./images/linkdin.png" alt="Instagram" /></a>
           </div>
           <h4>mettà muse ACCEPTS</h4>
           <div className={styles.paymentMethods}>
-            <img src="/images/mpay.png" alt="Visa" />
-            <img src="/images/paypal.png" alt="MasterCard" />
-            <img src="/images/amex.png" alt="Amex" />
-            <img src="/images/applepay.png" alt="Paypal" />
-            <img src="/images/pay.png" alt="Paypal" />
+            <img src="./images/mpay.png" alt="Visa" />
+            <img src="./images/paypal.png" alt="MasterCard" />
+            <img src="./images/amex.png" alt="Amex" />
+            <img src="./images/applepay.png" alt="Paypal" />
+            <img src="./images/pay.png" alt="Paypal" />
           </div>
         </div>
 

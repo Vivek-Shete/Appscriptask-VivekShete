@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className={styles.topRow}>
         {/* Left Section - Logo */}
         <div className={styles.logo}>
-          <img src="/images/logo.png" alt="Logo" />
+          <img src="./images/logo.png" alt="Logo" />
         </div>
 
         {/* Center Section - Text LOGO */}
@@ -17,9 +17,9 @@ export default function Navbar() {
 
         {/* Right Section - Icons */}
         <div className={styles.navIcons}>
-          <a href="#"><img src="/images/heart.png" alt="Account" /></a>
-          <a href="#"><img src="/images/cart.png" alt="Cart" /></a>
-          <a href="#"><img src="/images/profile.png" alt="Language" /></a>
+          <a href="#"><img src="./images/heart.png" alt="Account" /></a>
+          <a href="#"><img src="./images/cart.png" alt="Cart" /></a>
+          <a href="#"><img src="./images/profile.png" alt="Language" /></a>
         </div>
       </div>
 
